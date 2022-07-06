@@ -1,0 +1,23 @@
+.header__nav{
+  display: flex;
+  background-color: #15191C;
+  box-shadow: 0px 4px 4px rgb(0 0 0 / 16%);
+  padding: 8px 16px;
+}
+
+.header__categoria {
+  cursor: pointer;
+  margin: 10px 0;
+  margin-right: 2em;
+  padding-bottom: 5px;
+}
+
+@media (max-width: 800px) {
+  .header__nav {
+    justify-content: space-evenly;
+  }
+
+  .header__categoria {
+    margin: 0;
+  }
+}

@@ -1,0 +1,52 @@
+.apresentacao {
+  padding: 8px 16px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.apresentacao__nome {
+  text-align: center;
+  margin-bottom: 10px;
+  font-size: 24px;
+}
+
+.projetos__lista {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.projetos__img {
+  width: 200px;
+  height: 200px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.projetos__projeto {
+  width: 45%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 1em;
+}
+
+.paragrafo {
+  margin: .5rem;
+  text-align: center;
+}
+
+
+@media (max-width: 500px) {
+  .apresentacao__objetvio {
+    text-align: center;
+  }
+
+  .projetos__projeto {
+    width: auto;
+  }
+}
+
